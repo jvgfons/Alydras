@@ -79,6 +79,63 @@ button {
     cursor: pointer;
 }
 
+#nos{
+    align-items:center;
+    
+}
+
+.sobre-nos-container {
+    display: flex;
+    gap: 40px;
+    align-items: center;      /* Centraliza verticalmente */
+    justify-content: center;  /* Centraliza horizontalmente */
+    flex-wrap: wrap;
+}
+
+.galeria {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 20px;
+    justify-items: center;
+    align-items: center;
+    margin: 0;
+    max-width: 650px;
+}
+
+.nos img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    display: block;
+    margin: 0 auto 10px auto;
+    border: 6px solid var(--azul-claro);
+    background: #fff;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+}
+
+.nos h3 {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.sobre-nos-texto {
+    max-width: 400px;
+    font-size: 1.1rem;
+    color: var(--azul-escuro);
+    background: #f7fafc;
+    padding: 20px 24px;
+    border-radius: 12px;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.06);
+    align-self: center;
+}
+
+#sobre-nos h1 {
+    text-align: center;
+    margin-bottom: 32px;
+}
+
 footer {
     text-align: center;
     padding: 1rem 0;
