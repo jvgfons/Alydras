@@ -79,6 +79,59 @@ button {
     cursor: pointer;
 }
 
+a{
+    color: white;
+    text-decoration: none;
+}
+
+h2 {
+    font-family: IBM Plex, serif;
+    margin: 20px; 
+    text-align: center;
+    color:var(--branco);
+
+  }
+
+.conheca-conteudo {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+    padding: 40px;
+    gap: 40px;
+  
+  }
+  
+  .con {
+    flex: 1;
+    font-size: 1rem;
+    line-height: 1.6;
+    color: var(--preto);
+    font-family: inter, sans-serif;
+    color:var(--branco);
+  }
+  
+  .video {
+    flex: 1;
+    max-width: 100%;
+   
+  }
+
+/* .conheca {
+    background-color: #2ecc71; 
+    width: 100%;
+    height: 400px; 
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1; 
+} */
+.conheca {
+    background-color: var(--azul-medio);
+    width: 100%;
+    padding: 40px 0;
+}
+
 #nos{
     align-items:center;
     
@@ -129,14 +182,43 @@ button {
     border-radius: 12px;
     box-shadow: 0 2px 12px rgba(0,0,0,0.06);
     align-self: center;
+    
 }
 
 #sobre-nos h1 {
     text-align: center;
     margin-bottom: 32px;
+    margin-top: 50px;
+}
+
+.insta-btn {
+    display: inline-block;
+    padding: 6px 18px;
+    border-radius: 20px;
+    background: var(--azul-claro);
+    color: #fff;
+    font-size: 15px;
+    text-decoration: none;
+    border: none;
+    box-shadow: 0 1px 4px rgba(59,101,122,0.08);
+    transition: background 0.2s, color 0.2s;
+    font-family: inherit;
+    opacity: 0.92;
+}
+.insta-btn:hover {
+    background: #2b4d5e;
+    color: #e9f0c9;
+    opacity: 1;
+}
+
+.nos .link {
+    display: flex;
+    justify-content: center;
+    margin-top: 6px;
 }
 
 footer {
+    margin-top: 50px;
     text-align: center;
     padding: 1rem 0;
     background: var(--azul-claro);
