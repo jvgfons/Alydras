@@ -4,6 +4,7 @@
     --azul-medio: #123142;
     --azul-claro: #3B657A;
     --branco: #E9F0C9;
+    --verde: #143504;
 }
 
 *{
@@ -47,6 +48,35 @@
 button {
     padding: 5px 10px;
     border-radius: 20px;
+}
+
+#Início {
+    background-color: var(--branco);
+    display: flex;               
+    align-items: center;         
+    justify-content: center;
+    height: 800px;               
+}
+
+.inicio-conteudo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#inicio-img {
+    max-width: 100%;
+    height: auto;
+}
+
+.entrar {
+    background-color: var(--verde);
+    color: white;
+    font-size: 18px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
 }
 
 footer {
