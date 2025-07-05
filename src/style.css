@@ -13,11 +13,13 @@
 }
 
 #header {
+    position: fixed;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 10px;
     background-color: var(--azul-claro);
+    width: 100%;
 }
 
 .logo {
