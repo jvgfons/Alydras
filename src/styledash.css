@@ -55,6 +55,29 @@ body {
   overflow-y: auto;
 }
 
+.sidebar hr {
+  margin: 0;
+  border: none;
+  border-top: 1px solid #aaa;
+}
+
+.nav-link {
+  display: block;
+  padding: 15px 10px;
+  text-decoration: none;
+  color: black;
+}
+
+.nav-link:hover {
+  background-color: #ccc;
+}
+
+.sidebar hr {
+  margin: 0;
+  border: none;
+  border-top: 1px solid #aaa;
+}
+
 .menu-item {
   padding: 15px 10px;
   border-bottom: 1px solid #bbb;
