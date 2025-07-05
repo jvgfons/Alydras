@@ -147,3 +147,9 @@ h2 {
   background-color: #E9F0C9;
   border-radius: 50%;
 }
+.topbar-logo {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 30px; /* Ajuste conforme necessário */
+}
